@@ -5,6 +5,10 @@
 - ## autosync your development database from your application models
 - ## make your schema changes testable, robust, and (mostly) automatic
 
+**Link**
+
+- https://djrobstep.com/talks/your-migrations-are-bad-and-you-should-feel-bad
+
 `migra` is a schema diff tool for PostgreSQL, written in Python. Use it in your python scripts, or from the command line like this:
 
     $ migra postgresql:///a postgresql:///b
